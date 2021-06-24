@@ -9,12 +9,12 @@ const Navbar = () =>{
     const {cartAmount} = useGlobalContext()
     return(
         <nav className='navbar'>
-            <Link to='/'>
+            <Link to='/shopping-cart/'>
                 <img src={logo} alt='logo' className='nav-logo'/>
             </Link>
             <ul className='nav-links'>
                 <li>
-                    <Link to='/'>Home</Link>
+                    <Link to='/shopping-cart/'>Home</Link>
                 </li>
                 <li>
                     <Link to='/shop'>Shop</Link>

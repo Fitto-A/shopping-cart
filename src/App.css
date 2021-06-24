@@ -132,6 +132,23 @@ HOME
 .home-divider {
     background-color: var(--clr-arena);
 }
+.footer{
+    margin-bottom: 3rem;
+}
+
+.github-icon {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: var(--clr-verde);
+    padding: 1rem 1rem 3rem 1rem;
+    text-decoration: none;
+    display: grid;
+    justify-content: center;
+}
+
+a.github-icon:hover{
+    color: var(--clr-verde-osc);
+}
 
 .subtitle-home {
     background-color: var(--clr-arena);
@@ -159,6 +176,13 @@ HOME
 .images-home img:hover {
     transform: scale(1.15 ,1.15);
 }
+.home-division{
+    border-bottom: 1px solid var(--clr-verde-osc);
+    max-width: 1000px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+}
 
 @media screen and (max-width: 1390px) {
     .images-home {
@@ -166,6 +190,9 @@ HOME
     }
     .images-home img{
         max-width: 300px;
+    }
+    .home-division{
+        max-width: 800px;
     }
 }
 
@@ -175,6 +202,9 @@ HOME
     }
     .images-home img{
         max-width: 200px;
+    }
+    .home-division{
+        max-width: 500px;
     }
 }
 
@@ -413,21 +443,6 @@ CARRO
     stroke: #A9ADA5;
 }
 
-/* .btn-cart{
-    text-transform: uppercase;
-    font-size: 1rem;
-    border-radius: 8px;
-    color: var(--clr-arena);
-    background-color: var(--clr-verde);
-    border: none;
-    padding: 0.5rem;
-    cursor: pointer;
-}
-
-.btn-cart:hover{
-    background-color: #214E34;
-} */
-
 .to-cart {
     margin-top: 1rem;
     display: none;
@@ -439,4 +454,19 @@ CARRO
 
 .btn-to-cart{
     background-color: var(--clr-verde-osc);
+}
+
+.error-page{
+    display: table;
+    margin: auto;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.error-page h3{
+    font-size: 1.5rem;
+    padding: 1rem;
+    max-width: 550px;
+    line-height: 3rem;
+    color: var(--clr-verde-osc)
 }

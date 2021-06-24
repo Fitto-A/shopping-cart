@@ -5,6 +5,8 @@ import home from '../images/home.jpg'
 import bolsoNegro from '../images/bolso-negro.jpg'
 import portalentes from '../images/Portalentes-5.jpg'
 import riñonera from '../images/Riñonera-blanca2.jpg'
+import { FaGithubSquare } from "react-icons/fa";
+
 
 const Home = () =>{
     return(
@@ -34,6 +36,16 @@ const Home = () =>{
                     </Link>
                 </div>
             </div>
+            <div className='home-division'></div>
+
+            <a 
+                className="github-icon"
+                href='https://github.com/Fitto-A/shopping-cart' 
+                target= "_blank"
+                rel="noopener noreferrer"
+            >
+                <FaGithubSquare />
+            </a>
         </>
     )
 }

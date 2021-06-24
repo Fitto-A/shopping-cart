@@ -12,10 +12,10 @@ import Error from './pages/Error';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <Navbar />
       <Switch>
-        <Route exact path='/'>
+        <Route exact path='/shopping-cart/'>
           <Home />
         </Route>
         <Route path='/shop'>
