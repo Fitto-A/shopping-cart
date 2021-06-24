@@ -1,7 +1,6 @@
 :root{
     --clr-verde: #0AADBF;
     --clr-verde-osc: #43797F;
-
     --clr-arena: #F2D5C4;
 }
 
@@ -30,7 +29,7 @@
 }
 
 .cart-product{
-    display: flex;
+	display: -webkit-inline-box;
 }
 
 .product-description {

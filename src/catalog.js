@@ -51,7 +51,7 @@ const catalog = [
         name: 'portalentes negro',
         src: portalentesNegro,
         price: 12.50,
-        description: 'portalentes abrojo',
+        description: 'portalentes con abrojo',
         category: 'accesorios',
         quantity: 0,
     },
