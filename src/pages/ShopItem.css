@@ -1,0 +1,34 @@
+.section-product {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* margin: auto; */
+    align-content: center;
+    justify-content: center;
+    padding-top: 8rem;
+}
+.img-section {
+	grid-column-start: 2;
+}
+
+.img-product {
+    max-width: 400px;
+    margin-top: 2rem;
+}
+
+.img-product:hover{
+    transform: scale(1.5 , 1.5);
+}
+
+@media screen and (max-width: 1390px) {
+    .section-product {
+        padding-top: 4rem;
+    }
+    .img-product {
+        margin-top: 3rem;
+        max-width: 300px;
+    }
+    
+    .img-product:hover{
+        transform: scale(1.4 , 1.4);
+    }
+}

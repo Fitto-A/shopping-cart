@@ -1,0 +1,104 @@
+:root{
+    --clr-verde: #0AADBF;
+    --clr-verde-osc: #43797F;
+    --clr-arena: #F2D5C4;
+}
+
+.btn-shop {
+	padding: 15px;
+	background: var(--clr-arena);
+	color: var(--clr-verde-osc);
+    font-weight: 700;
+}
+
+
+.animated-button.add-btn {
+    cursor: pointer;
+    display: inline;
+    position: relative;
+    border: 2px solid var(--clr-verde);
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.animated-button.add-btn:hover {
+	color: var(--clr-arena);
+	background-color: transparent;
+}
+.animated-button.add-btn:hover:before {
+	left: 0%;
+	right: auto;
+	width: 100%;
+}
+.animated-button.add-btn:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: var(--clr-arena);
+	background: var(--clr-verde);
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+
+
+
+.animated-button.btn-to-cart {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    border: 2px solid var(--clr-verde);
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 2rem;
+}
+.animated-button.btn-to-cart:hover {
+	color: var(--clr-arena);
+	background-color: transparent;
+}
+.animated-button.btn-to-cart:hover:before {
+	bottom: 0%;
+	top: auto;
+	height: 100%;
+}
+.animated-button.btn-to-cart:before {
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 0px;
+	width: 100%;
+	z-index: -1;
+	content: '';
+	color: #F2D5C4;
+	background: #0AADBF;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+
+
+.animated-button.btn-pay {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    border: 2px solid var(--clr-verde);
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 2rem;
+}
+.animated-button.btn-pay:hover {
+	color: var(--clr-arena);
+	background-color: var(--clr-verde);
+}
