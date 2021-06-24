@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.e006ec5f.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.9e9d360b.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.9e9d360b.chunk.js.map",
+    "runtime-main.js": "/shopping-cart/static/js/runtime-main.8fe60f94.js",
+    "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.8fe60f94.js.map",
+    "static/js/2.06aa7cca.chunk.js": "/shopping-cart/static/js/2.06aa7cca.chunk.js",
+    "static/js/2.06aa7cca.chunk.js.map": "/shopping-cart/static/js/2.06aa7cca.chunk.js.map",
+    "index.html": "/shopping-cart/index.html",
+    "static/css/main.e006ec5f.chunk.css.map": "/shopping-cart/static/css/main.e006ec5f.chunk.css.map",
+    "static/js/2.06aa7cca.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.06aa7cca.chunk.js.LICENSE.txt",
+    "static/media/Portalentes-5.6f9e3a1f.jpg": "/shopping-cart/static/media/Portalentes-5.6f9e3a1f.jpg",
+    "static/media/Portalentes-blanco.2b32dca0.jpg": "/shopping-cart/static/media/Portalentes-blanco.2b32dca0.jpg",
+    "static/media/Portalentes-negro.528fce65.jpg": "/shopping-cart/static/media/Portalentes-negro.528fce65.jpg",
+    "static/media/Riñonera-blanca.119d9d4e.jpg": "/shopping-cart/static/media/Riñonera-blanca.119d9d4e.jpg",
+    "static/media/Riñonera-blanca2.b542a3cd.jpg": "/shopping-cart/static/media/Riñonera-blanca2.b542a3cd.jpg",
+    "static/media/Riñonera-negra.86f3d16a.jpg": "/shopping-cart/static/media/Riñonera-negra.86f3d16a.jpg",
+    "static/media/Riñonera-negra2.4aca28eb.jpg": "/shopping-cart/static/media/Riñonera-negra2.4aca28eb.jpg",
+    "static/media/bolso-gris.8cca74c8.jpg": "/shopping-cart/static/media/bolso-gris.8cca74c8.jpg",
+    "static/media/bolso-gris2.93ca1e72.jpg": "/shopping-cart/static/media/bolso-gris2.93ca1e72.jpg",
+    "static/media/bolso-negro.b6f608bd.jpg": "/shopping-cart/static/media/bolso-negro.b6f608bd.jpg",
+    "static/media/App.css": "/shopping-cart/static/media/home.2d7ec736.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fe60f94.js",
+    "static/js/2.06aa7cca.chunk.js",
+    "static/css/main.e006ec5f.chunk.css",
+    "static/js/main.9e9d360b.chunk.js"
+  ]
+}
