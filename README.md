@@ -1,5 +1,6 @@
-# The Simpsons memory card game
+# Shopping Cart
 
+A simple shopping cart page using React and React-router-dom.
 
 | [Live Demo](https://fitto-a.github.io/shopping-cart/) 
 
